@@ -6,9 +6,22 @@ const myId = 435653444187979776;
 module.exports = {
   helpCommand: function (arguments, receivedMessage) {
     if(arguments.length > 0) {
-      receivedMessage.channel.send('Need help with ' + arguments + '?');
+      switch(arguments[0]){
+        case 'fetch':
+          receivedMessage.channel.send('Dat fetches a random gif. If you !fetch [word] then it grab random gif relating to dat word.');
+          break;
+        case 'pet':
+          receivedMessage.channel.send('Good boi gets pets :3');
+          break;
+        case 'secret':
+          receivedMessage.channel.send('I not spoil da secrets.');
+          break;
+        default:
+          receivedMessage.channel.send('Dat not a command lul.');
+          break;
+      }
     } else {
-      receivedMessage.channel.send('Available Commands: \n !boop \n !fetch a random gif or !fetch [searchword] \n !goodboi \n !rollover \n !sad \n !pet or !pet [name of person giving pets] \n !purpose \n !walk \n !yes');
+      receivedMessage.channel.send('Available Commands: \n !boop \n !fetch a random gif or !fetch [searchword] \n !goodboi \n !rollover \n !sad \n !pet or !pet [name of person giving pets] \n !purpose \n !walk \n !yes \n I has secret doge commands too!');
     }
   },
   fetchCommand: function (arguments, receivedMessage) {

@@ -63,8 +63,20 @@ function processCommand(receivedMessage) {
     case 'fetch':
       commands.fetchCommand(arguments, receivedMessage);
       break;
+    case 'wow':
+      receivedMessage.channel.send('Such doge. Much wow.')
+      break;
+    case 'potty':
+      receivedMessage.channel.send('https://media.giphy.com/media/BTglLD3b6F4Ry/giphy.gif');
+      break;
+    case 'treat':
+      receivedMessage.channel.send('https://media.giphy.com/media/1fhj2W53BjaVVib2A2/giphy.gif');
+      break;
+    case 'secret':
+      receivedMessage.channel.send('I like to sniff booties.');
+      break;
     default:
-      receivedMessage.channel.send('Wot? Try !help')
+      receivedMessage.channel.send('Wot? Try !help for list of commands.')
       break;
   }
 }
