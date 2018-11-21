@@ -1,0 +1,23 @@
+{
+  "name": "good_boi",
+  "version": "1.0.0",
+  "description": "Just a good boi bot.",
+  "main": "good_boi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadeon/good_boi_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadeon/good_boi_bot/issues"
+  },
+  "homepage": "https://github.com/Hadeon/good_boi_bot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "https": "^1.0.0"
+  }
+}
