@@ -16,11 +16,18 @@ client.on('ready', () => {
 });
 
 client.on('message', (receivedMessage) => {
+  let heckinMad = client.emojis.find(emoji => emoji.name === 'heckinMad');
   if(receivedMessage.author == client.user) {
     return
   }
   if(receivedMessage.content.startsWith('!')) {
     processCommand(receivedMessage)
+  }
+  if(commands.isRude(receivedMessage)){
+    roleManagement.rudeActs(receivedMessage, receivedMessage.author.id, heckinMad);
+  }
+  if(receivedMessage.content.toLowerCase().includes('whiskey')){
+    receivedMessage.reply(`No! ${heckinMad} Tequila only.`)
   }
 });
 

@@ -8,3 +8,10 @@ Additionally in order for !fetch to work, a Giphy API Key must be included in th
 MODIFY ROLES:
   -- Currently automatically assigns new users to a predefined role, will eventually add this and other options to variables in order to support this for other servers (not bothering to add this until I know of any other permissions that may be needed).
       - Need to more appropriately catch and log errors in the future as webhook errors would crash the bot.
+
+
+*** FUTURE CONFIG CHANGES ***
+
+- Store an array of words or phrases that Good Boi doesn't like (to be used in isRude function)
+- Store the specific mad emote it will respond with
+- Store the role to be assigned to newly joined users

@@ -1,6 +1,6 @@
 const https = require('https');
 const config = require('./config');
-
+const roleManagement = require('./roleManagement.js');
 const bobId = 502940237949960192;
 const myId = 435653444187979776;
 
@@ -85,6 +85,25 @@ module.exports = {
     } else {
       receivedMessage.channel.send('👅')
     }
+  },
+  isRude: function(message) {
+    const rude = [
+      'babo',
+      'trump',
+      'bath',
+      'penis',
+      'vagina',
+      'anus',
+      'anal',
+      'porn',
+      'pron'
+    ]
+    for(let i=0; i < rude.length; i++){
+      if(message.content.toLowerCase().includes(rude[i])){
+        return true;
+      }
+    }
+    return false;
   }
 }
 
