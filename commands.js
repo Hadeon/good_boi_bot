@@ -1,4 +1,5 @@
 const https = require('https');
+const config = require('./config');
 
 const bobId = 502940237949960192;
 const myId = 435653444187979776;
@@ -21,12 +22,12 @@ module.exports = {
           break;
       }
     } else {
-      receivedMessage.channel.send('Available Commands: \n !boop \n !fetch a random gif or !fetch [searchword] \n !goodboi \n !rollover \n !sad \n !pet or !pet [name of person giving pets] \n !purpose \n !walk \n !yes \n I has secret doge commands too!');
+      receivedMessage.channel.send('Available Commands: \n !boop \n !fetch a random gif or !fetch [searchword] \n !goodboi \n !rollover \n !sad \n !pet or !pet [name of person giving pets] \n !purpose \n !walk \n !yes \n !treat \n !potty \n I has secret doge commands too!');
     }
   },
   fetchCommand: function (arguments, receivedMessage) {
 
-    let giphyEndpoint = `https://api.giphy.com/v1/gifs/random?api_key=i0Oym3xZWtKfitV418rTdB2ZPEbaev2N`;
+    let giphyEndpoint = `https://api.giphy.com/v1/gifs/random?api_key=${config.giphy_key}`;
   
     if(receivedMessage.author.id == bobId) {
       receivedMessage.channel.send('https://i.pinimg.com/originals/d5/c7/a3/d5c7a3cee65eaa1d4ce5b1e16d064f36.jpg');
@@ -79,8 +80,8 @@ module.exports = {
     if(receivedMessage.author.id == bobId) {
       receivedMessage.channel.send('https://media.giphy.com/media/61hMOSBBeqUCY/giphy.gif');
     }
-    else if(arguments.length > 0){
-      receivedMessage.channel.send('👅 \n Thanks ' + arguments + '!')
+    else if(arguments.length > 0 && arguments != '@everyone' && arguments != '@here'){
+      receivedMessage.channel.send(`Can I haz pets plz ${arguments}? 👅`)
     } else {
       receivedMessage.channel.send('👅')
     }

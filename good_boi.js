@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const commands = require('./commands.js');
+const roleManagement = require('./roleManagement.js');
 const config = require('./config');
 
 client.on('ready', () => {
@@ -22,6 +23,14 @@ client.on('message', (receivedMessage) => {
     processCommand(receivedMessage)
   }
 });
+
+// Give default Huskers role to any new users
+
+client.on('guildMemberAdd', (member) => {
+  member.addRole(member.guild.roles.find(role => role.name === 'Huskers'));
+}).on('error', (err) => {
+  console.log(err.message);
+})
 
 function processCommand(receivedMessage) {
   let splitCommand = receivedMessage.content.substr(1).split(' ');
