@@ -13,7 +13,7 @@ module.exports = {
         let user = message.guild.members.find(u => u.id === userId);
         user.addRole(role).catch(console.error);
         message.reply(`Grr... you in the dog house for 10 minutes. ${heckinMad}`)
-        dogHouse[userId] += 1;
+        dogHouse[userId] = 4;
         setTimeout(function removeDogHouse() {
           user.removeRole(role).catch(console.error);
           console.log('Timeout set');
