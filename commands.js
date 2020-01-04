@@ -1,5 +1,4 @@
 const https = require('https');
-const config = require('./config');
 const roleManagement = require('./roleManagement.js');
 const bobId = 502940237949960192;
 const myId = 435653444187979776;
@@ -27,7 +26,7 @@ module.exports = {
   },
   fetchCommand: function (arguments, receivedMessage) {
 
-    let giphyEndpoint = `https://api.giphy.com/v1/gifs/random?api_key=${config.giphy_key}`;
+    let giphyEndpoint = `https://api.giphy.com/v1/gifs/random?api_key=${process.env.giphy_key}`;
   
     if(receivedMessage.author.id == bobId) {
       receivedMessage.channel.send('https://i.pinimg.com/originals/d5/c7/a3/d5c7a3cee65eaa1d4ce5b1e16d064f36.jpg');
@@ -87,8 +86,8 @@ module.exports = {
     }
   },
   isRude: function(message) {
-    for(let i=0; i < config.rude.length; i++){
-      if(message.content.toLowerCase().includes(config.rude[i])){
+    for(let i=0; i < process.env.rude.length; i++){
+      if(message.content.toLowerCase().includes(process.env.rude[i])){
         return true;
       }
     }

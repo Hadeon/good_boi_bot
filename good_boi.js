@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const commands = require('./commands.js');
 const roleManagement = require('./roleManagement.js');
-const config = require('./config');
 
 client.on('ready', () => {
   console.log('Servers:');
@@ -31,7 +30,7 @@ client.on('message', (receivedMessage) => {
 // Give default Huskers role to any new users
 
 client.on('guildMemberAdd', (member) => {
-  member.addRole(member.guild.roles.find(role => role.name === config.default_role));
+  member.addRole(member.guild.roles.find(role => role.name === process.env.default_role));
 }).on('error', (err) => {
   console.log(err.message);
 })
@@ -97,4 +96,4 @@ function processCommand(receivedMessage) {
   }
 }
 
-client.login(config.bot_token);
+client.login(process.env.bot_token);
