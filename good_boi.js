@@ -26,15 +26,12 @@ client.on('message', (receivedMessage) => {
   if(commands.isRude(receivedMessage)){
     roleManagement.rudeActs(receivedMessage, receivedMessage.author.id, heckinMad);
   }
-  if(receivedMessage.content.toLowerCase().includes('whiskey')){
-    receivedMessage.reply(`No! ${heckinMad} Tequila only.`)
-  }
 });
 
 // Give default Huskers role to any new users
 
 client.on('guildMemberAdd', (member) => {
-  member.addRole(member.guild.roles.find(role => role.name === 'Huskers'));
+  member.addRole(member.guild.roles.find(role => role.name === config.default_role));
 }).on('error', (err) => {
   console.log(err.message);
 })
@@ -66,6 +63,9 @@ function processCommand(receivedMessage) {
       break;
     case 'yes':
       receivedMessage.channel.send('WEEEE!!!');
+      break;
+    case 'max':
+      receivedMessage.channel.send('Max is best friend.')
       break;
     case 'walk':
       receivedMessage.channel.send('ASFJEIFAEOFJAEFOAEHGREOFK!!!!!!!');

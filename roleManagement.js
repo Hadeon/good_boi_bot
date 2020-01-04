@@ -3,12 +3,6 @@ const https = require('https');
 var dogHouse = {};
 
 module.exports = {
-  sendToDogHouse: function(message, userId) {
-    let role = message.guild.roles.find(r => r.name === 'Dog House');
-    let user = message.guild.members.find(u => u.id === userId);
-    console.log(role, user);
-    user.addRole(role).catch(console.error);
-  },
   rudeActs: function (message, userId, heckinMad) {
     if(dogHouse[userId] === undefined){
       dogHouse[userId] = 1;

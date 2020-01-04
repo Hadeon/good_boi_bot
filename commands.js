@@ -87,19 +87,8 @@ module.exports = {
     }
   },
   isRude: function(message) {
-    const rude = [
-      'babo',
-      'trump',
-      'bath',
-      'penis',
-      'vagina',
-      'anus',
-      'anal',
-      'porn',
-      'pron'
-    ]
-    for(let i=0; i < rude.length; i++){
-      if(message.content.toLowerCase().includes(rude[i])){
+    for(let i=0; i < config.rude.length; i++){
+      if(message.content.toLowerCase().includes(config.rude[i])){
         return true;
       }
     }
