@@ -88,6 +88,7 @@ module.exports = {
   isRude: function(message) {
     for(let i=0; i < process.env.rude.length; i++){
       if(message.content.toLowerCase().includes(process.env.rude[i])){
+        console.log(process.env.rude[i])
         return true;
       }
     }
