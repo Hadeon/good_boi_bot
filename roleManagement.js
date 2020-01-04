@@ -18,7 +18,7 @@ module.exports = {
           user.removeRole(role).catch(console.error);
           console.log('Timeout set');
           dogHouse[userId] = 1;
-        }, 600000);
+        }, 1000);
       } else {
         dogHouse[userId] += 1;
         message.reply(`${heckinMad}`);
