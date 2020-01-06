@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Hadeon/good_boi_bot#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
+    "dotenv": "^8.2.0",
     "https": "^1.0.0"
   },
   "engines": {

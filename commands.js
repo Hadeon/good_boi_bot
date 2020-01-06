@@ -1,5 +1,6 @@
 const https = require('https');
 const roleManagement = require('./roleManagement.js');
+require('dotenv').config();
 const bobId = 502940237949960192;
 const myId = 435653444187979776;
 
