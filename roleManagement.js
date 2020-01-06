@@ -8,6 +8,14 @@ module.exports = {
       dogHouse[userId] = 1;
       message.reply(`${heckinMad}`);
     } else {
+      if(dogHouse[userId] === 1){
+        dogHouse[userId] += 1;
+        message.reply(`${heckinMad}`);
+      }
+      if(dogHouse[userId] === 2){
+        dogHouse[userId] += 1;
+        message.reply('You heckin wut?!')
+      }
       if(dogHouse[userId] === 3){
         let role = message.guild.roles.find(r => r.name === 'Dog House');
         let user = message.guild.members.find(u => u.id === userId);
@@ -18,10 +26,10 @@ module.exports = {
           user.removeRole(role).catch(console.error);
           dogHouse[userId] = 1;
         }, 600000);
-      } else {
-        dogHouse[userId] += 1;
-        message.reply(`${heckinMad}`);
       } 
-    }
+      if(dogHouse[userId] === 4){
+        message.reply('You still in Dog House punk! Stop dat!')
+      }
+    } 
   }
 }
