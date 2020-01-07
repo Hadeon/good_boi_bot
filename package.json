@@ -21,7 +21,8 @@
     "discord.js": "^11.4.2",
     "dotenv": "^8.2.0",
     "https": "^1.0.0",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3"
   },
   "engines": {
     "node": "13.1.0"

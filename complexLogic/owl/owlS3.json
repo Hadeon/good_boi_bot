@@ -58,15 +58,15 @@
     },
     {
       "date":"02152020",
-      "time":"18:00",
-      "teamOne":"Dragons",
-      "teamTwo":"Hunters"
-    },
-    {
-      "date":"02152020",
       "time":"16:00",
       "teamOne":"Outlaws",
       "teamTwo":"Mayhem"
+    },
+    {
+      "date":"02152020",
+      "time":"18:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Hunters"
     },
     {
       "date":"02152020",
@@ -82,15 +82,15 @@
     },
     {
       "date":"02162020",
-      "time":"18:00",
-      "teamOne":"Dragons",
-      "teamTwo":"Dynasty"
-    },
-    {
-      "date":"02162020",
       "time":"16:00",
       "teamOne":"Outlaws",
       "teamTwo":"Justice"
+    },
+    {
+      "date":"02162020",
+      "time":"18:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Dynasty"
     },
     {
       "date":"02162020",
@@ -102,51 +102,161 @@
   "0222-0223":[
     {
       "date":"02222020",
-      "time":"13:00",
-      "teamOne":"Eternal",
-      "teamTwo":"Defiant"
+      "time":"14:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Valiant"
     },
     {
       "date":"02222020",
       "time":"15:00",
-      "teamOne":"Excelsior",
-      "teamTwo":"Spitfire"
+      "teamOne":"Fusion",
+      "teamTwo":"Excelsior"
     },
     {
       "date":"02222020",
       "time":"16:00",
-      "teamOne":"Titans",
+      "teamOne":"Dragons",
       "teamTwo":"Gladiators"
     },
     {
       "date":"02222020",
+      "time":"17:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Uprising"
+    },
+    {
+      "date":"02222020",
       "time":"18:00",
-      "teamOne":"Fuel",
-      "teamTwo":"Valiant"
+      "teamOne":"Charge",
+      "teamTwo":"Shock"
+    },
+    {
+      "date":"02222020",
+      "time":"19:00",
+      "teamOne":"Justice",
+      "teamTwo":"Eternal"
     },
     {
       "date":"02232020",
-      "time":"13:00",
-      "teamOne":"Eternal",
-      "teamTwo":"Spitfire"
+      "time":"14:00",
+      "teamOne":"Hunters",
+      "teamTwo":"Valiant"
     },
     {
       "date":"02232020",
       "time":"15:00",
-      "teamOne":"Excelsior",
-      "teamTwo":"Uprising"
+      "teamOne":"Outlaws",
+      "teamTwo":"Excelsior"
     },
     {
       "date":"02232020",
       "time":"16:00",
-      "teamOne":"Titans",
-      "teamTwo":"Valiant"
+      "teamOne":"Dragons",
+      "teamTwo":"Shock"
+    },
+    {
+      "date":"02232020",
+      "time":"17:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Defiant"
     },
     {
       "date":"02232020",
       "time":"18:00",
-      "teamOne":"Fuel",
+      "teamOne":"Charge",
+      "teamTwo":"Gladiators"
+    },
+    {
+      "date":"02232020",
+      "time":"19:00",
+      "teamOne":"Justice",
+      "teamTwo":"Spitfire"
+    }
+  ],
+  "0229-0301":[
+    {
+      "date":"02292020",
+      "time":"12:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Fuel"
+    },
+    {
+      "date":"02292020",
+      "time":"14:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Titans"
+    },
+    {
+      "date":"02292020",
+      "time":"14:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Excelsior"
+    },
+    {
+      "date":"02292020",
+      "time":"16:00",
+      "teamOne":"Hunters",
       "teamTwo":"Shock"
+    },
+    {
+      "date":"02292020",
+      "time":"16:00",
+      "teamOne":"Reign",
+      "teamTwo":"Defiant"
+    },
+    {
+      "date":"02292020",
+      "time":"18:00",
+      "teamOne":"Spark",
+      "teamTwo":"Gladiators"
+    },
+    {
+      "date":"02292020",
+      "time":"18:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Spitfire"
+    },
+    {
+      "date":"03012020",
+      "time":"",
+      "teamOne":"",
+      "teamTwo":""
+    },
+    {
+      "date":"03012020",
+      "time":"",
+      "teamOne":"",
+      "teamTwo":""
+    },
+    {
+      "date":"03012020",
+      "time":"",
+      "teamOne":"",
+      "teamTwo":""
+    },
+    {
+      "date":"03012020",
+      "time":"",
+      "teamOne":"",
+      "teamTwo":""
+    },
+    {
+      "date":"03012020",
+      "time":"",
+      "teamOne":"",
+      "teamTwo":""
+    },
+    {
+      "date":"03012020",
+      "time":"",
+      "teamOne":"",
+      "teamTwo":""
+    },
+    {
+      "date":"03012020",
+      "time":"",
+      "teamOne":"",
+      "teamTwo":""
     }
   ]
 }

@@ -52,5 +52,33 @@ module.exports = {
         }
       }
     }
+  },
+  isMatchToday: function (){
+    let today = moment().format('MMDD');
+    for(const week in schedule){
+      let weekSplit = week.split('-');
+      if(weekSplit[0] === today || weekSplit[1] === today){
+        return true;
+      }
+    }
+    return false;
+  },
+  getTodaysMatches: function (){
+    let today = moment().format('MMDD');
+    let todayFull = moment().format('MMDDYYYY');
+    let todaySchedule = [];
+    for(const week in schedule){
+      let weekSplit = week.split('-');
+      if(weekSplit[0] === today || weekSplit[1] === today){
+        for(var i = 0; i < schedule[week].length; i++){
+          let matchData = schedule[week][i];
+          if(matchData.date === todayFull){
+            let matchDetails = `@${matchData.time} PST --- ${matchData.teamOne} vs ${matchData.teamTwo}`;
+            todaySchedule.push(matchDetails);
+          }
+        }
+        return todaySchedule.join('\r')
+      }
+    }
   }
 }

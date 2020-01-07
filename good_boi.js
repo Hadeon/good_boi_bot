@@ -1,3 +1,4 @@
+const cron = require('node-cron');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const commands = require('./commands.js');
@@ -8,12 +9,21 @@ require('dotenv').config();
 client.on('ready', () => {
   console.log('Servers:');
   client.guilds.forEach((guild) => {
-    console.log(' - ' + guild.name);
+    console.log(' - ' + guild.name + ' - ' + guild.id);
 
     guild.channels.forEach((channel) => {
-      console.log(` -- ${channel.name} (${channel.type}) - ${channel.id}`);
+      console.log(` --- ${channel.name} (${channel.type}) - ${channel.id}`);
     });
   });
+});
+
+// Checks at 7am every day if there are matches, and if there are, posts the schedule in the specified channel using the owl_channel_id
+
+cron.schedule("0 7 * * *", () => {
+  if(owlScheduler.isMatchToday()){
+    let todaysSchedule = owlScheduler.getTodaysMatches();
+    client.guilds.get(`${process.env.guild_id}`).channels.get(`${process.env.owl_channel_id}`).send(`Matches today: \r ${todaysSchedule}`);
+  }
 });
 
 client.on('message', (receivedMessage) => {
