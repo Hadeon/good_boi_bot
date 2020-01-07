@@ -16,11 +16,48 @@ const moment = require('moment');
 const schedule = require('./owlS3.json');
 
 module.exports = {
-  nextMatch: function(receivedMessage){
-    // let todayDate = moment().format('MMDDYYYY');
-    // receivedMessage.channel.send(`${todayDate}`)
-    console.log(schedule.weekOne[0]);
-    let match = moment(schedule.weekOne[0].date, 'MMDDYYYY');
-    receivedMessage.channel.send(`Next match is on ${match.format('MMMM Do')} at ${schedule.weekOne[0].time}PST`)
+  nextMatch: function(arguments, receivedMessage){
+    let today = moment().format('MMDD');
+    let todayFull = moment().format('MMDDYYYY');
+    let currentTime = moment().format('HH:mm');
+    
+    if(arguments.length > 0){
+      for(const week in schedule){
+        let weekSplit = week.split('-');
+        if(weekSplit[0] > today || weekSplit[1] > today){
+          for(var i = 0; i < schedule[week].length; i++){
+            if(schedule[week][i].date === todayFull && schedule[week][i].time > currentTime && (schedule[week][i].teamOne === arguments[0] || schedule[week][i].teamTwo === arguments[0])){
+              receivedMessage.channel.send(`Next match is at ${schedule[week][i].time}PST --- ${schedule[week][i].teamOne} vs ${schedule[week][i].teamTwo} `)
+              return;
+            }
+            if(schedule[week][i].date > todayFull && (schedule[week][i].teamOne === arguments[0] || schedule[week][i].teamTwo === arguments[0])){
+              let nextDate = moment(schedule[week][i].date, 'MMDDYYYY');
+              receivedMessage.channel.send(`Next match is on ${nextDate.format('MMMM Do')} at ${schedule[week][i].time} PST --- ${schedule[week][i].teamOne} vs ${schedule[week][i].teamTwo}`)
+              return;
+            }
+          }
+        }
+      }
+      receivedMessage.channel.send('Command not understood. Please only type the team name, such as Eternal, rather than Paris or Paris Eternal.');
+      return;
+    }
+
+    // If no arguments
+    for(const week in schedule){
+      let weekSplit = week.split('-');
+      if(weekSplit[0] > today || weekSplit[1] > today){
+        for(var i = 0; i < schedule[week].length; i++){
+          if(schedule[week][i].date === todayFull && schedule[week][i].time > currentTime){
+            receivedMessage.channel.send(`Next match is at ${schedule[week][i].time}PST --- ${schedule[week][i].teamOne} vs ${schedule[week][i].teamTwo} `)
+            return;
+          }
+          if(schedule[week][i].date > todayFull){
+            let nextDate = moment(schedule[week][i].date, 'MMDDYYYY');
+            receivedMessage.channel.send(`Next match is on ${nextDate.format('MMMM Do')} at ${schedule[week][i].time} PST`)
+            return;
+          }
+        }
+      }
+    }
   }
 }

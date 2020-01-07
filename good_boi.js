@@ -93,7 +93,7 @@ function processCommand(receivedMessage) {
       receivedMessage.channel.send('I like to sniff booties.');
       break;
     case 'nextMatch':
-      owlScheduler.nextMatch(receivedMessage);
+      owlScheduler.nextMatch(arguments, receivedMessage);
       break;
     default:
       receivedMessage.channel.send('Wot? Try !help for list of commands.')

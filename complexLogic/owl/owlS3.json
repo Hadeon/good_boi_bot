@@ -52,48 +52,98 @@
   "0215-0216":[
     {
       "date":"02152020",
+      "time":"16:00",
+      "teamOne":"Spark",
+      "teamTwo":"Dynasty"
+    },
+    {
+      "date":"02152020",
+      "time":"18:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Hunters"
+    },
+    {
+      "date":"02152020",
+      "time":"16:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Mayhem"
+    },
+    {
+      "date":"02152020",
+      "time":"18:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Justice"
+    },
+    {
+      "date":"02162020",
+      "time":"16:00",
+      "teamOne":"Spark",
+      "teamTwo":"Hunters"
+    },
+    {
+      "date":"02162020",
+      "time":"18:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Dynasty"
+    },
+    {
+      "date":"02162020",
+      "time":"16:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Justice"
+    },
+    {
+      "date":"02162020",
+      "time":"18:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Mayhem"
+    }
+  ],
+  "0222-0223":[
+    {
+      "date":"02222020",
       "time":"13:00",
       "teamOne":"Eternal",
       "teamTwo":"Defiant"
     },
     {
-      "date":"02152020",
+      "date":"02222020",
       "time":"15:00",
       "teamOne":"Excelsior",
       "teamTwo":"Spitfire"
     },
     {
-      "date":"02152020",
+      "date":"02222020",
       "time":"16:00",
       "teamOne":"Titans",
       "teamTwo":"Gladiators"
     },
     {
-      "date":"02152020",
+      "date":"02222020",
       "time":"18:00",
       "teamOne":"Fuel",
       "teamTwo":"Valiant"
     },
     {
-      "date":"02162020",
+      "date":"02232020",
       "time":"13:00",
       "teamOne":"Eternal",
       "teamTwo":"Spitfire"
     },
     {
-      "date":"02162020",
+      "date":"02232020",
       "time":"15:00",
       "teamOne":"Excelsior",
       "teamTwo":"Uprising"
     },
     {
-      "date":"02162020",
+      "date":"02232020",
       "time":"16:00",
       "teamOne":"Titans",
       "teamTwo":"Valiant"
     },
     {
-      "date":"02162020",
+      "date":"02232020",
       "time":"18:00",
       "teamOne":"Fuel",
       "teamTwo":"Shock"
