@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const commands = require('./commands.js');
 const roleManagement = require('./roleManagement.js');
+const owlScheduler = require('./complexLogic/owl/owlSchedulerS3');
 require('dotenv').config();
 
 client.on('ready', () => {
@@ -59,7 +60,7 @@ function processCommand(receivedMessage) {
       receivedMessage.channel.send('Can haz belly rubs? 😄');
       break;
     case 'sad':
-      receivedMessage.channel.send(receivedMessage.author + ', don\'t be sad boi. Be hecken happy boi.')
+      receivedMessage.channel.send(receivedMessage.author + ', we all love you!')
       break;
     case 'yes':
       receivedMessage.channel.send('WEEEE!!!');
@@ -90,6 +91,9 @@ function processCommand(receivedMessage) {
       break;
     case 'secret':
       receivedMessage.channel.send('I like to sniff booties.');
+      break;
+    case 'nextMatch':
+      owlScheduler.nextMatch(receivedMessage);
       break;
     default:
       receivedMessage.channel.send('Wot? Try !help for list of commands.')

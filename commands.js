@@ -1,8 +1,6 @@
 const https = require('https');
-const roleManagement = require('./roleManagement.js');
 require('dotenv').config();
 const bobId = 502940237949960192;
-const myId = 435653444187979776;
 
 module.exports = {
   helpCommand: function (arguments, receivedMessage) {
@@ -22,7 +20,7 @@ module.exports = {
           break;
       }
     } else {
-      receivedMessage.channel.send('Available Commands: \n !boop \n !fetch a random gif or !fetch [searchword] \n !goodboi \n !rollover \n !sad \n !pet or !pet [name of person giving pets] \n !purpose \n !walk \n !yes \n !treat \n !potty \n I has secret doge commands too!');
+      receivedMessage.channel.send('Available Commands: \n !nextMatch \n !boop \n !fetch a random gif or !fetch [searchword] \n !goodboi \n !rollover \n !sad \n !pet or !pet [name of person giving pets] \n !purpose \n !walk \n !yes \n !treat \n !potty \n I has secret doge commands too!');
     }
   },
   fetchCommand: function (arguments, receivedMessage) {
