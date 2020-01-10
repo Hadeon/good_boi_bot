@@ -2,6 +2,7 @@
 
 const moment = require('moment');
 const schedule = require('./owlS3.json');
+const weekConstants = require('./weekConstants.json');
 
 module.exports = {
   nextMatch: function(arguments, receivedMessage){
@@ -84,7 +85,6 @@ module.exports = {
   },
   getTeamSchedule: function(arguments, receivedMessage) {
     let teamSchedule = [];
-    if(arguments.length > 0){
       let argumentsLowerCase = arguments[0].toLowerCase();
       let teamName = argumentsLowerCase.replace(/^\w/, c => c.toUpperCase())
       for(const week in schedule){
@@ -101,12 +101,52 @@ module.exports = {
         }
       }
       if(teamSchedule.length === 0){
-        receivedMessage.channel.send('Team name not recognized. Ex. **Eternal** not **Paris** or **Paris Eternal**');
+        receivedMessage.channel.send('Not recognized. Ex. **Eternal** not **Paris** or **Paris Eternal**');
         return;
       }
       receivedMessage.channel.send(teamSchedule.join('\r'))
+  },
+  getWeekSchedule: function(arguments, receivedMessage){
+    let weekSchedule = [];
+    if(isNaN(arguments[1]) === false){
+      let arrayNumber = arguments[1] - 1;
+      let weekData = schedule[Object.keys(schedule)[arrayNumber]];
+      if(weekData === undefined){
+        receivedMessage.channel.send('Invalid week.');
+        return;
+      }
+      for(let i = 0; i < weekData.length; i++){
+        let matchDate = moment(weekData[i].date, 'MMDDYYYY');
+        weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time}PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
+      }
+      receivedMessage.channel.send(weekSchedule.join('\r'));
     } else {
-      receivedMessage.channel.send('!schedule [teamName] required.')
+      let weekNumber = weekConstants[arguments[1].toLowerCase()];
+      if(weekNumber != undefined){
+        let weekData = schedule[Object.keys(schedule)[weekNumber]];
+        for(let i = 0; i < weekData.length; i++){
+          let matchDate = moment(weekData[i].date, 'MMDDYYYY');
+          weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time}PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
+        }
+        receivedMessage.channel.send(weekSchedule.join('\r'));
+      } else {
+        receivedMessage.channel.send('Invalid week');
+        return;
+      }
     }
   }
 }
+
+  // "six": 5,
+  // "seven": 6,
+  // "eight": 7,
+  // "nine": 8,
+  // "ten": 9,
+  // "eleven": 10,
+  // "twelve": 11,
+  // "thirteen": 12,
+  // "fourteen": 13,
+  // "fifteen": 14,
+  // "sixteen": 15,
+  // "seventeen": 16,
+  // "eighteen": 17

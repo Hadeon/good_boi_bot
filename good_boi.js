@@ -112,7 +112,19 @@ function processCommand(receivedMessage) {
       owlScheduler.nextMatch(arguments, receivedMessage);
       break;
     case 'schedule':
-      owlScheduler.getTeamSchedule(arguments, receivedMessage);
+      if(arguments.length > 0){
+        if(arguments[0].includes('week')){
+          if(arguments.length > 1){
+            owlScheduler.getWeekSchedule(arguments, receivedMessage);
+          } else {
+            receivedMessage.channel.send('Please specify the week ex. **one** or **1**.')
+          }
+          return;
+        }
+        owlScheduler.getTeamSchedule(arguments, receivedMessage);
+      } else {
+        receivedMessage.channel.send('Team name or week number needs to be specified.')
+      }
       break;
     default:
       receivedMessage.channel.send('Wot? Try !help for list of commands.')
