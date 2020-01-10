@@ -343,6 +343,134 @@
       "teamOne":"Justice",
       "teamTwo":"Uprising",
       "hostedBy": "WAS"
+    },
+    {
+      "date":"03082020",
+      "time":"14:00",
+      "teamOne":"Charge",
+      "teamTwo":"Titans",
+      "hostedBy": "SEO"
+    },
+    {
+      "date":"03082020",
+      "time":"15:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Eternal",
+      "hostedBy": "WAS"
+    },
+    {
+      "date":"03082020",
+      "time":"16:00",
+      "teamOne":"Hunters",
+      "teamTwo":"Gladiators",
+      "hostedBy": "SEO"
+    },
+    {
+      "date":"03082020",
+      "time":"17:00",
+      "teamOne":"Reign",
+      "teamTwo":"Uprising",
+      "hostedBy": "WAS"
+    },
+    {
+      "date":"03082020",
+      "time":"18:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Shock",
+      "hostedBy": "SEO"
+    },
+    {
+      "date":"03082020",
+      "time":"19:00",
+      "teamOne":"Justice",
+      "teamTwo":"Excelsior",
+      "hostedBy": "WAS"
+    }
+  ],
+  "0314-0315":[
+    {
+      "date":"03142020",
+      "time":"14:00",
+      "teamOne":"Reign",
+      "teamTwo":"Excelsior",
+      "hostedBy": "FLA"
+    },
+    {
+      "date":"03142020",
+      "time":"15:00",
+      "teamOne":"Spark",
+      "teamTwo":"Valiant",
+      "hostedBy": "GZC"
+    },
+    {
+      "date":"03142020",
+      "time":"16:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Spitfire",
+      "hostedBy": "FLA"
+    },
+    {
+      "date":"03142020",
+      "time":"17:00",
+      "teamOne":"Hunters",
+      "teamTwo":"Titans",
+      "hostedBy": "GZC"
+    },
+    {
+      "date":"03142020",
+      "time":"18:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Eternal",
+      "hostedBy": "FLA"
+    },
+    {
+      "date":"03142020",
+      "time":"19:00",
+      "teamOne":"Charge",
+      "teamTwo":"Fuel",
+      "hostedBy": "GZC"
+    },
+    {
+      "date":"03152020",
+      "time":"14:00",
+      "teamOne":"Justice",
+      "teamTwo":"Defiant",
+      "hostedBy": "FLA"
+    },
+    {
+      "date":"03152020",
+      "time":"15:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Fuel",
+      "hostedBy": "GZC"
+    },
+    {
+      "date":"03152020",
+      "time":"16:00",
+      "teamOne":"Reign",
+      "teamTwo":"Spitfire",
+      "hostedBy": "FLA"
+    },
+    {
+      "date":"03152020",
+      "time":"17:00",
+      "teamOne":"Spark",
+      "teamTwo":"Titans",
+      "hostedBy": "GZC"
+    },
+    {
+      "date":"03152020",
+      "time":"18:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Uprising",
+      "hostedBy": "FLA"
+    },
+    {
+      "date":"03152020",
+      "time":"19:00",
+      "teamOne":"Charge",
+      "teamTwo":"Valiant",
+      "hostedBy": "GZC"
     }
   ]
 }
