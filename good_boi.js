@@ -33,9 +33,15 @@ client.on('message', (receivedMessage) => {
   }
   if(receivedMessage.content.startsWith('!')) {
     processCommand(receivedMessage)
+    return;
   }
   if(commands.isRude(receivedMessage)){
     roleManagement.rudeActs(receivedMessage, receivedMessage.author.id, heckinMad);
+    return;
+  }
+  if(commands.isGladiator(receivedMessage)){
+    receivedMessage.channel.send('GLADIATOR! GLADIATOR!');
+    return;
   }
 });
 
@@ -104,6 +110,9 @@ function processCommand(receivedMessage) {
       break;
     case 'nextMatch':
       owlScheduler.nextMatch(arguments, receivedMessage);
+      break;
+    case 'schedule':
+      owlScheduler.getTeamSchedule(arguments, receivedMessage);
       break;
     default:
       receivedMessage.channel.send('Wot? Try !help for list of commands.')

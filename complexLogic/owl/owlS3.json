@@ -4,49 +4,57 @@
       "date":"02082020",
       "time":"13:00",
       "teamOne":"Eternal",
-      "teamTwo":"Defiant"
+      "teamTwo":"Defiant",
+      "hostedBy": "NYE"
     },
     {
       "date":"02082020",
       "time":"15:00",
       "teamOne":"Excelsior",
-      "teamTwo":"Spitfire"
+      "teamTwo":"Spitfire",
+      "hostedBy": "NYE"
     },
     {
       "date":"02082020",
       "time":"16:00",
       "teamOne":"Titans",
-      "teamTwo":"Gladiators"
+      "teamTwo":"Gladiators",
+      "hostedBy": "DAL"
     },
     {
       "date":"02082020",
       "time":"18:00",
       "teamOne":"Fuel",
-      "teamTwo":"Valiant"
+      "teamTwo":"Valiant",
+      "hostedBy": "DAL"
     },
     {
       "date":"02092020",
       "time":"13:00",
       "teamOne":"Eternal",
-      "teamTwo":"Spitfire"
+      "teamTwo":"Spitfire",
+      "hostedBy": "NYE"
     },
     {
       "date":"02092020",
       "time":"15:00",
       "teamOne":"Excelsior",
-      "teamTwo":"Uprising"
+      "teamTwo":"Uprising",
+      "hostedBy": "NYE"
     },
     {
       "date":"02092020",
       "time":"16:00",
       "teamOne":"Titans",
-      "teamTwo":"Valiant"
+      "teamTwo":"Valiant",
+      "hostedBy": "DAL"
     },
     {
       "date":"02092020",
       "time":"18:00",
       "teamOne":"Fuel",
-      "teamTwo":"Shock"
+      "teamTwo":"Shock",
+      "hostedBy": "DAL"
     }
   ],
   "0215-0216":[
@@ -54,49 +62,57 @@
       "date":"02152020",
       "time":"16:00",
       "teamOne":"Spark",
-      "teamTwo":"Dynasty"
+      "teamTwo":"Dynasty",
+      "hostedBy": "SHD"
     },
     {
       "date":"02152020",
       "time":"16:00",
       "teamOne":"Outlaws",
-      "teamTwo":"Mayhem"
+      "teamTwo":"Mayhem",
+      "hostedBy": "PHI"
     },
     {
       "date":"02152020",
       "time":"18:00",
       "teamOne":"Dragons",
-      "teamTwo":"Hunters"
+      "teamTwo":"Hunters",
+      "hostedBy": "SHD"
     },
     {
       "date":"02152020",
       "time":"18:00",
       "teamOne":"Fusion",
-      "teamTwo":"Justice"
+      "teamTwo":"Justice",
+      "hostedBy": "PHI"
     },
     {
       "date":"02162020",
       "time":"16:00",
       "teamOne":"Spark",
-      "teamTwo":"Hunters"
+      "teamTwo":"Hunters",
+      "hostedBy": "SHD"
     },
     {
       "date":"02162020",
       "time":"16:00",
       "teamOne":"Outlaws",
-      "teamTwo":"Justice"
+      "teamTwo":"Justice",
+      "hostedBy": "PHI"
     },
     {
       "date":"02162020",
       "time":"18:00",
       "teamOne":"Dragons",
-      "teamTwo":"Dynasty"
+      "teamTwo":"Dynasty",
+      "hostedBy": "SHD"
     },
     {
       "date":"02162020",
       "time":"18:00",
       "teamOne":"Fusion",
-      "teamTwo":"Mayhem"
+      "teamTwo":"Mayhem",
+      "hostedBy": "PHI"
     }
   ],
   "0222-0223":[
@@ -104,73 +120,85 @@
       "date":"02222020",
       "time":"14:00",
       "teamOne":"Dynasty",
-      "teamTwo":"Valiant"
+      "teamTwo":"Valiant",
+      "hostedBy": "GZC"
     },
     {
       "date":"02222020",
       "time":"15:00",
       "teamOne":"Fusion",
-      "teamTwo":"Excelsior"
+      "teamTwo":"Excelsior",
+      "hostedBy": "WAS"
     },
     {
       "date":"02222020",
       "time":"16:00",
       "teamOne":"Dragons",
-      "teamTwo":"Gladiators"
+      "teamTwo":"Gladiators",
+      "hostedBy": "GZC"
     },
     {
       "date":"02222020",
       "time":"17:00",
       "teamOne":"Outlaws",
-      "teamTwo":"Uprising"
+      "teamTwo":"Uprising",
+      "hostedBy": "WAS"
     },
     {
       "date":"02222020",
       "time":"18:00",
       "teamOne":"Charge",
-      "teamTwo":"Shock"
+      "teamTwo":"Shock",
+      "hostedBy": "GZC"
     },
     {
       "date":"02222020",
       "time":"19:00",
       "teamOne":"Justice",
-      "teamTwo":"Eternal"
+      "teamTwo":"Eternal",
+      "hostedBy": "WAS"
     },
     {
       "date":"02232020",
       "time":"14:00",
       "teamOne":"Hunters",
-      "teamTwo":"Valiant"
+      "teamTwo":"Valiant",
+      "hostedBy": "GZC"
     },
     {
       "date":"02232020",
       "time":"15:00",
       "teamOne":"Outlaws",
-      "teamTwo":"Excelsior"
+      "teamTwo":"Excelsior",
+      "hostedBy": "WAS"
     },
     {
       "date":"02232020",
       "time":"16:00",
       "teamOne":"Dragons",
-      "teamTwo":"Shock"
+      "teamTwo":"Shock",
+      "hostedBy": "GZC"
     },
     {
       "date":"02232020",
       "time":"17:00",
       "teamOne":"Fusion",
-      "teamTwo":"Defiant"
+      "teamTwo":"Defiant",
+      "hostedBy": "WAS"
     },
     {
       "date":"02232020",
       "time":"18:00",
       "teamOne":"Charge",
-      "teamTwo":"Gladiators"
+      "teamTwo":"Gladiators",
+      "hostedBy": "GZC"
     },
     {
       "date":"02232020",
       "time":"19:00",
       "teamOne":"Justice",
-      "teamTwo":"Spitfire"
+      "teamTwo":"Spitfire",
+      "hostedBy": "WAS"
     }
   ],
   "0229-0301":[
@@ -178,85 +206,143 @@
       "date":"02292020",
       "time":"12:00",
       "teamOne":"Dynasty",
-      "teamTwo":"Fuel"
+      "teamTwo":"Fuel",
+      "hostedBy": "HZS"
     },
     {
       "date":"02292020",
       "time":"14:00",
       "teamOne":"Dragons",
-      "teamTwo":"Titans"
+      "teamTwo":"Titans",
+      "hostedBy": "HZS"
     },
     {
       "date":"02292020",
       "time":"14:00",
       "teamOne":"Mayhem",
-      "teamTwo":"Excelsior"
+      "teamTwo":"Excelsior",
+      "hostedBy": "HOU"
     },
     {
       "date":"02292020",
       "time":"16:00",
       "teamOne":"Hunters",
-      "teamTwo":"Shock"
+      "teamTwo":"Shock",
+      "hostedBy": "HZS"
     },
     {
       "date":"02292020",
       "time":"16:00",
       "teamOne":"Reign",
-      "teamTwo":"Defiant"
+      "teamTwo":"Defiant",
+      "hostedBy": "HOU"
     },
     {
       "date":"02292020",
       "time":"18:00",
       "teamOne":"Spark",
-      "teamTwo":"Gladiators"
+      "teamTwo":"Gladiators",
+      "hostedBy": "HZS"
     },
     {
       "date":"02292020",
       "time":"18:00",
       "teamOne":"Outlaws",
-      "teamTwo":"Spitfire"
+      "teamTwo":"Spitfire",
+      "hostedBy": "HOU"
     },
     {
       "date":"03012020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":""
+      "time":"12:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Uprising",
+      "hostedBy": "HOU"
     },
     {
       "date":"03012020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":""
+      "time":"14:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Titans",
+      "hostedBy": "HZS"
     },
     {
       "date":"03012020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":""
+      "time":"14:00",
+      "teamOne":"Reign",
+      "teamTwo":"Eternal",
+      "hostedBy": "HOU"
     },
     {
       "date":"03012020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":""
+      "time":"16:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Valiant",
+      "hostedBy": "HZS"
     },
     {
       "date":"03012020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":""
+      "time":"16:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Spitfire",
+      "hostedBy": "HOU"
     },
     {
       "date":"03012020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":""
+      "time":"18:00",
+      "teamOne":"Spark",
+      "teamTwo":"Fuel",
+      "hostedBy": "HZS"
     },
     {
       "date":"03012020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":""
+      "time":"18:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Defiant",
+      "hostedBy": "HOU"
+    }
+  ],
+  "0307-0308":[
+    {
+      "date":"03072020",
+      "time":"15:00",
+      "teamOne":"Spark",
+      "teamTwo":"Shock",
+      "hostedBy": "SEO"
+    },
+    {
+      "date":"03072020",
+      "time":"15:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Defiant",
+      "hostedBy": "WAS"
+    },
+    {
+      "date":"03072020",
+      "time":"17:00",
+      "teamOne":"Hunters",
+      "teamTwo":"Fuel",
+      "hostedBy": "SEO"
+    },
+    {
+      "date":"03072020",
+      "time":"17:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Eternal",
+      "hostedBy": "WAS"
+    },
+    {
+      "date":"03072020",
+      "time":"19:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Gladiators",
+      "hostedBy": "SEO"
+    },
+    {
+      "date":"03072020",
+      "time":"19:00",
+      "teamOne":"Justice",
+      "teamTwo":"Uprising",
+      "hostedBy": "WAS"
     }
   ]
 }

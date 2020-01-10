@@ -20,7 +20,7 @@ module.exports = {
           break;
       }
     } else {
-      receivedMessage.channel.send('Available Commands: \n !nextMatch shows next upcoming match or !nextMatch [teamName] shows next time that team plays \n !boop \n !fetch a random gif or !fetch [searchword] \n !goodboi \n !rollover \n !sad \n !pet or !pet [name of person giving pets] \n !purpose \n !walk \n !yes \n !treat \n !potty \n I has secret doge commands too!');
+      receivedMessage.channel.send('Available Commands: \n **!nextMatch** shows next upcoming match or **!nextMatch [teamName]** shows next time that team plays \n **!schedule [teamName]** shows upcoming schedule \n **!boop** \n **!fetch** a random gif or **!fetch [searchword]** \n **!goodboi** \n **!rollover** \n **!sad** \n **!pet** or **!pet [name of person giving pets]** \n **!purpose** \n **!walk** \n **!yes** \n **!treat** \n **!potty** \n I has secret doge commands too!');
     }
   },
   fetchCommand: function (arguments, receivedMessage) {
@@ -92,6 +92,11 @@ module.exports = {
       }
     }
     return false;
+  },
+  isGladiator: function(message){
+    if(message.content.toLowerCase().includes('gladiator')){
+      return true;
+    }
   }
 }
 
