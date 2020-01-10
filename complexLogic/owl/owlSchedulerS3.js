@@ -100,6 +100,10 @@ module.exports = {
           }
         }
       }
+      if(teamSchedule.length === 0){
+        receivedMessage.channel.send('Team name not recognized. Ex. **Eternal** not **Paris** or **Paris Eternal**');
+        return;
+      }
       receivedMessage.channel.send(teamSchedule.join('\r'))
     } else {
       receivedMessage.channel.send('!schedule [teamName] required.')
