@@ -862,6 +862,92 @@
       "teamTwo":"Titans",
       "hostedBy": "VAL"
     }
+  ],
+  "0425-0426":[
+    {
+      "date":"04252020",
+      "time":"08:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Spitfire",
+      "hostedBy": "BOS"
+    },
+    {
+      "date":"04252020",
+      "time":"10:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Excelsior",
+      "hostedBy": "BOS"
+    },
+    {
+      "date":"04252020",
+      "time":"12:00",
+      "teamOne":"Justice",
+      "teamTwo":"Uprising",
+      "hostedBy": "BOS"
+    },
+    {
+      "date":"04252020",
+      "time":"14:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Shock",
+      "hostedBy": "DAL"
+    },
+    {
+      "date":"04252020",
+      "time":"16:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Valiant",
+      "hostedBy": "DAL"
+    },
+    {
+      "date":"04252020",
+      "time":"18:00",
+      "teamOne":"Charge",
+      "teamTwo":"Fuel",
+      "hostedBy": "DAL"
+    },
+    {
+      "date":"04262020",
+      "time":"08:00",
+      "teamOne":"Justice",
+      "teamTwo":"Excelsior",
+      "hostedBy": "BOS"
+    },
+    {
+      "date":"04262020",
+      "time":"10:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Spitfire",
+      "hostedBy": "BOS"
+    },
+    {
+      "date":"04262020",
+      "time":"12:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Uprising",
+      "hostedBy": "BOS"
+    },
+    {
+      "date":"04262020",
+      "time":"14:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Gladiators",
+      "hostedBy": "DAL"
+    },
+    {
+      "date":"04262020",
+      "time":"16:00",
+      "teamOne":"Charge",
+      "teamTwo":"Valiant",
+      "hostedBy": "DAL"
+    },
+    {
+      "date":"04262020",
+      "time":"18:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Fuel",
+      "hostedBy": "DAL"
+    }
   ]
 
 }
