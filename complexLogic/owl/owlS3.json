@@ -589,89 +589,87 @@
       "hostedBy": "SFS"
     }
   ],
-
-  
   "0404-0405":[
     {
       "date":"04042020",
-      "time":"11:00",
+      "time":"08:00",
       "teamOne":"Eternal",
       "teamTwo":"Outlaws",
       "hostedBy": "WAS"
     },
     {
       "date":"04042020",
-      "time":"13:00",
+      "time":"10:00",
       "teamOne":"Excelsior",
       "teamTwo":"Reign",
       "hostedBy": "WAS"
     },
     {
       "date":"04042020",
-      "time":"15:00",
+      "time":"12:00",
       "teamOne":"Spitfire",
       "teamTwo":"Justice",
       "hostedBy": "WAS"
     },
     {
       "date":"04042020",
-      "time":"16:00",
+      "time":"14:00",
       "teamOne":"Titans",
       "teamTwo":"Dynasty",
       "hostedBy": "DAL"
     },
     {
       "date":"04042020",
-      "time":"18:00",
+      "time":"16:00",
       "teamOne":"Shock",
       "teamTwo":"Spark",
       "hostedBy": "DAL"
     },
     {
       "date":"04042020",
-      "time":"20:00",
+      "time":"18:00",
       "teamOne":"Fuel",
       "teamTwo":"Hunters",
       "hostedBy": "DAL"
     },
     {
       "date":"04052020",
-      "time":"11:00",
+      "time":"08:00",
       "teamOne":"Excelsior",
       "teamTwo":"Outlaws",
       "hostedBy": "WAS"
     },
     {
       "date":"04052020",
-      "time":"13:00",
+      "time":"10:00",
       "teamOne":"Defiant",
       "teamTwo":"Fusion",
       "hostedBy": "WAS"
     },
     {
       "date":"04052020",
-      "time":"15:00",
+      "time":"12:00",
       "teamOne":"Eternal",
       "teamTwo":"Justice",
       "hostedBy": "WAS"
     },
     {
       "date":"04052020",
-      "time":"16:00",
+      "time":"14:00",
       "teamOne":"Titans",
       "teamTwo":"Charge",
       "hostedBy": "DAL"
     },
     {
       "date":"04052020",
-      "time":"18:00",
+      "time":"16:00",
       "teamOne":"Shock",
       "teamTwo":"Hunters",
       "hostedBy": "DAL"
     },
     {
       "date":"04052020",
-      "time":"20:00",
+      "time":"18:00",
       "teamOne":"Fuel",
       "teamTwo":"Spark",
       "hostedBy": "DAL"
