@@ -25,12 +25,14 @@ module.exports = {
         '\n **!boop**' +
         '\n **!fetch** a random gif or **!fetch [searchword]**' +
         '\n **!goodboi**' +
-        '\n **!nextMatch** shows next upcoming match or **!nextMatch [teamName]** shows next time that team plays' +
+        '\n **!nextMatch** shows next upcoming match' +
+        '\n **!nextMatch [teamName]** shows next time that team plays' +
         '\n **!pet** or **!pet [name of person giving pets]**' +
         '\n **!potty**' +
         '\n **!purpose**' +
         '\n **!rollover**' +
-        '\n **!schedule [teamName]** shows upcoming schedule or **!schedule [weekNumber]** shows the schedule for that week' +
+        '\n **!schedule [teamName]** shows upcoming schedule' +
+        '\n **!schedule [weekNumber]** shows the schedule for that week' +
         '\n **!sad**' +
         '\n **!treat**' +
         '\n **!walk**' +
