@@ -531,14 +531,19 @@
       "hostedBy": "ATL"
     }
   ],
-
-  
   "0328-0329":[
     {
       "date":"03282020",
-      "time":"15:00",
+      "time":"08:00",
       "teamOne":"Uprising",
       "teamTwo":"Defiant",
+      "hostedBy": "LON"
+    },
+    {
+      "date":"03282020",
+      "time":"10:00",
+      "teamOne":"Spitfire",
+      "teamTwo":"Eternal",
       "hostedBy": "LON"
     },
     {
@@ -551,16 +556,23 @@
     {
       "date":"03282020",
       "time":"17:00",
-      "teamOne":"Spitfire",
-      "teamTwo":"Eternal",
-      "hostedBy": "LON"
-    },
-    {
-      "date":"03282020",
-      "time":"17:00",
       "teamOne":"Shock",
       "teamTwo":"Gladiators",
       "hostedBy": "SFS"
+    },
+    {
+      "date":"03292020",
+      "time":"07:00",
+      "teamOne":"Uprising",
+      "teamTwo":"Excelsior",
+      "hostedBy": "LON"
+    },
+    {
+      "date":"03292020",
+      "time":"09:00",
+      "teamOne":"Spitfire",
+      "teamTwo":"Defiant",
+      "hostedBy": "LON"
     },
     {
       "date":"03292020",
@@ -575,22 +587,10 @@
       "teamOne":"Shock",
       "teamTwo":"Valiant",
       "hostedBy": "SFS"
-    },
-    {
-      "date":"03292020",
-      "time":"15:00",
-      "teamOne":"Uprising",
-      "teamTwo":"Excelsior",
-      "hostedBy": "LON"
-    },
-    {
-      "date":"03292020",
-      "time":"17:00",
-      "teamOne":"Spitfire",
-      "teamTwo":"Defiant",
-      "hostedBy": "LON"
     }
   ],
+
+  
   "0404-0405":[
     {
       "date":"04042020",
