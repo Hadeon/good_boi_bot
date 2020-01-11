@@ -676,57 +676,105 @@
     }
   ],
 
-
-
   "0411-0412":[
     {
       "date":"04112020",
-      "time":"13:00",
+      "time":"04:00",
       "teamOne":"Defiant",
       "teamTwo":"Mayhem",
       "hostedBy": "PAR"
     },
     {
       "date":"04112020",
-      "time":"15:00",
+      "time":"06:00",
       "teamOne":"Excelsior",
       "teamTwo":"Fusion",
       "hostedBy": "PAR"
     },
     {
       "date":"04112020",
-      "time":"17:00",
+      "time":"08:00",
       "teamOne":"Uprising",
       "teamTwo":"Outlaws",
       "hostedBy": "PAR"
     },
     {
       "date":"04112020",
-      "time":"19:00",
+      "time":"10:00",
       "teamOne":"Eternal",
       "teamTwo":"Reign",
       "hostedBy": "PAR"
     },
     {
       "date":"04112020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":"",
-      "hostedBy": "PAR"
+      "time":"00:00",
+      "teamOne":"Charge",
+      "teamTwo":"Shock",
+      "hostedBy": "To Be Announced"
     },
     {
       "date":"04112020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":"",
-      "hostedBy": "PAR"
+      "time":"00:00",
+      "teamOne":"Hunters",
+      "teamTwo":"Titans",
+      "hostedBy": "To Be Announced"
     },
     {
       "date":"04112020",
-      "time":"",
-      "teamOne":"",
-      "teamTwo":"",
+      "time":"00:00",
+      "teamOne":"Spark",
+      "teamTwo":"Gladiators",
+      "hostedBy": "To Be Announced"
+    },
+    {
+      "date":"04122020",
+      "time":"00:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Titans",
+      "hostedBy": "To Be Announced"
+    },
+    {
+      "date":"04122020",
+      "time":"00:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Shock",
+      "hostedBy": "To Be Announced"
+    },
+    {
+      "date":"04122020",
+      "time":"00:00",
+      "teamOne":"Hunters",
+      "teamTwo":"Valiant",
+      "hostedBy": "To Be Announced"
+    },
+    {
+      "date":"04122020",
+      "time":"00:00",
+      "teamOne":"Charge",
+      "teamTwo":"Gladiators",
+      "hostedBy": "To Be Announced"
+    },
+    {
+      "date":"04122020",
+      "time":"06:00",
+      "teamOne":"Reign",
+      "teamTwo":"Uprising",
+      "hostedBy": "PAR"
+    },
+    {
+      "date":"04122020",
+      "time":"08:00",
+      "teamOne":"Outlaws",
+      "teamTwo":"Defiant",
+      "hostedBy": "PAR"
+    },
+    {
+      "date":"04122020",
+      "time":"10:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Eternal",
       "hostedBy": "PAR"
     }
   ]
+  
 }
