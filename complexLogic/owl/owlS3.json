@@ -473,66 +473,66 @@
       "hostedBy": "FLA"
     }
   ],
-
-
   "0321-0322":[
     {
       "date":"03212020",
-      "time":"15:00",
+      "time":"00:00",
       "teamOne":"Hunters",
       "teamTwo":"Dynasty",
       "hostedBy": "GZC"
     },
     {
       "date":"03212020",
-      "time":"16:00",
-      "teamOne":"Justice",
-      "teamTwo":"Fusion",
-      "hostedBy": "ATL"
-    },
-    {
-      "date":"03212020",
-      "time":"17:00",
+      "time":"02:00",
       "teamOne":"Charge",
       "teamTwo":"Spark",
       "hostedBy": "GZC"
     },
     {
       "date":"03212020",
-      "time":"18:00",
+      "time":"13:00",
+      "teamOne":"Justice",
+      "teamTwo":"Fusion",
+      "hostedBy": "ATL"
+    },
+    {
+      "date":"03212020",
+      "time":"15:00",
       "teamOne":"Reign",
       "teamTwo":"Mayhem",
       "hostedBy": "ATL"
     },
     {
       "date":"03222020",
-      "time":"15:00",
+      "time":"00:00",
       "teamOne":"Hunters",
       "teamTwo":"Dragons",
       "hostedBy": "GZC"
     },
     {
       "date":"03222020",
-      "time":"16:00",
-      "teamOne":"Justice",
-      "teamTwo":"Mayhem",
-      "hostedBy": "ATL"
-    },
-    {
-      "date":"03222020",
-      "time":"17:00",
+      "time":"02:00",
       "teamOne":"Charge",
       "teamTwo":"Dynasty",
       "hostedBy": "GZC"
     },
     {
       "date":"03222020",
-      "time":"18:00",
+      "time":"13:00",
+      "teamOne":"Justice",
+      "teamTwo":"Mayhem",
+      "hostedBy": "ATL"
+    },
+    {
+      "date":"03222020",
+      "time":"15:00",
       "teamOne":"Reign",
       "teamTwo":"Fusion",
       "hostedBy": "ATL"
     }
   ],
+
+  
   "0328-0329":[
     {
       "date":"03282020",
