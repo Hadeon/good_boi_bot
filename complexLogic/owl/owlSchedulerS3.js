@@ -137,9 +137,6 @@ module.exports = {
   }
 }
 
-// "ten": 9,
-// "eleven": 10,
-// "twelve": 11,
 // "thirteen": 12,
 // "fourteen": 13,
 // "fifteen": 14,
