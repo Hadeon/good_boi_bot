@@ -775,6 +775,93 @@
       "teamTwo":"Eternal",
       "hostedBy": "PAR"
     }
+  ],
+
+  "0418-0419":[
+    {
+      "date":"04182020",
+      "time":"09:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Eternal",
+      "hostedBy": "TOR"
+    },
+    {
+      "date":"04182020",
+      "time":"11:00",
+      "teamOne":"Fusion",
+      "teamTwo":"Spitfire",
+      "hostedBy": "TOR"
+    },
+    {
+      "date":"04182020",
+      "time":"13:00",
+      "teamOne":"Reign",
+      "teamTwo":"Defiant",
+      "hostedBy": "TOR"
+    },
+    {
+      "date":"04182020",
+      "time":"15:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Gladiators",
+      "hostedBy": "VAL"
+    },
+    {
+      "date":"04182020",
+      "time":"17:00",
+      "teamOne":"Dynasty",
+      "teamTwo":"Fuel",
+      "hostedBy": "VAL"
+    },
+    {
+      "date":"04182020",
+      "time":"19:00",
+      "teamOne":"Spark",
+      "teamTwo":"Valiant",
+      "hostedBy": "VAL"
+    },
+    {
+      "date":"04192020",
+      "time":"09:00",
+      "teamOne":"Mayhem",
+      "teamTwo":"Uprising",
+      "hostedBy": "TOR"
+    },
+    {
+      "date":"04192020",
+      "time":"11:00",
+      "teamOne":"Reign",
+      "teamTwo":"Spitfire",
+      "hostedBy": "TOR"
+    },
+    {
+      "date":"04192020",
+      "time":"13:00",
+      "teamOne":"Justice",
+      "teamTwo":"Defiant",
+      "hostedBy": "TOR"
+    },
+    {
+      "date":"04192020",
+      "time":"15:00",
+      "teamOne":"Hunters",
+      "teamTwo":"Gladiators",
+      "hostedBy": "VAL"
+    },
+    {
+      "date":"04192020",
+      "time":"17:00",
+      "teamOne":"Dragons",
+      "teamTwo":"Valiant",
+      "hostedBy": "VAL"
+    },
+    {
+      "date":"04192020",
+      "time":"19:00",
+      "teamOne":"Spark",
+      "teamTwo":"Titans",
+      "hostedBy": "VAL"
+    }
   ]
-  
+
 }
