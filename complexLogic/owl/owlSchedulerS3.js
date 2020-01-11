@@ -43,7 +43,7 @@ module.exports = {
         for(var i = 0; i < schedule[week].length; i++){
           let matchData = schedule[week][i];
           if(matchData.date === todayFull && matchData.time > currentTime){
-            receivedMessage.channel.send(`Next match is at ${matchData.time}PST --- ${matchData.teamOne} vs ${matchData.teamTwo} --- hosted by ${matchData.hostedBy}`)
+            receivedMessage.channel.send(`Next match is at ${matchData.time} PST --- ${matchData.teamOne} vs ${matchData.teamTwo} --- hosted by ${matchData.hostedBy}`)
             return;
           }
           if(matchData.date > todayFull){
@@ -95,7 +95,7 @@ module.exports = {
             let matchData = schedule[week][i];
             let nextDate = moment(matchData.date, 'MMDDYYYY');
             if(matchData.teamOne === teamName || matchData.teamTwo === teamName){
-              teamSchedule.push(`*${nextDate.format('MMMM Do')} @${matchData.time}PST* --- **${matchData.teamOne} vs ${matchData.teamTwo}** --- hosted by ${matchData.hostedBy}`)
+              teamSchedule.push(`*${nextDate.format('MMMM Do')} @${matchData.time} PST* --- **${matchData.teamOne} vs ${matchData.teamTwo}** --- hosted by ${matchData.hostedBy}`)
             }
           }
         }
@@ -117,7 +117,7 @@ module.exports = {
       }
       for(let i = 0; i < weekData.length; i++){
         let matchDate = moment(weekData[i].date, 'MMDDYYYY');
-        weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time}PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
+        weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time} PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
       }
       receivedMessage.channel.send(weekSchedule.join('\r'));
     } else {
@@ -126,7 +126,7 @@ module.exports = {
         let weekData = schedule[Object.keys(schedule)[weekNumber]];
         for(let i = 0; i < weekData.length; i++){
           let matchDate = moment(weekData[i].date, 'MMDDYYYY');
-          weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time}PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
+          weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time} PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
         }
         receivedMessage.channel.send(weekSchedule.join('\r'));
       } else {
