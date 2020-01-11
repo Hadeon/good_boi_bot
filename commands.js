@@ -20,7 +20,22 @@ module.exports = {
           break;
       }
     } else {
-      receivedMessage.channel.send('Available Commands: \n **!nextMatch** shows next upcoming match or **!nextMatch [teamName]** shows next time that team plays \n **!schedule [teamName]** shows upcoming schedule or **!schedule [weekNumber]** shows the schedule for that week \n **!boop** \n **!fetch** a random gif or **!fetch [searchword]** \n **!goodboi** \n **!rollover** \n **!sad** \n **!pet** or **!pet [name of person giving pets]** \n **!purpose** \n **!walk** \n **!yes** \n **!treat** \n **!potty** \n I has secret doge commands too!');
+      receivedMessage.channel.send(
+        'Available Commands:' +
+        '\n **!boop**' +
+        '\n **!fetch** a random gif or **!fetch [searchword]**' +
+        '\n **!goodboi**' +
+        '\n **!nextMatch** shows next upcoming match or **!nextMatch [teamName]** shows next time that team plays' +
+        '\n **!pet** or **!pet [name of person giving pets]**' +
+        '\n **!potty**' +
+        '\n **!purpose**' +
+        '\n **!rollover**' +
+        '\n **!schedule [teamName]** shows upcoming schedule or **!schedule [weekNumber]** shows the schedule for that week' +
+        '\n **!sad**' +
+        '\n **!treat**' +
+        '\n **!walk**' +
+        '\n **!yes**' +
+        '\n I has secret doge commands too!');
     }
   },
   fetchCommand: function (arguments, receivedMessage) {
