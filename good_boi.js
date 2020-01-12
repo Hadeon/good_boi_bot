@@ -29,7 +29,7 @@ cron.schedule("0 0 0 * * *", () => {
 });
 
 client.on('message', (receivedMessage) => {
-  let heckinMad = client.emojis.find(emoji => emoji.name === 'heckinMad');
+  var heckinMad = client.emojis.find(emoji => emoji.name === 'heckinMad');
   if(receivedMessage.author == client.user) {
     return
   }
@@ -59,6 +59,7 @@ function processCommand(receivedMessage) {
   let splitCommand = receivedMessage.content.substr(1).split(' ');
   let primaryCommand = splitCommand[0];
   let arguments = splitCommand.slice(1);
+  var heckinMad = client.emojis.find(emoji => emoji.name === 'heckinMad');
 
   console.log('Command received: ' + primaryCommand);
   console.log('Arguments: ' + arguments);
@@ -96,6 +97,10 @@ function processCommand(receivedMessage) {
       receivedMessage.channel.send('https://media.giphy.com/media/NkJEXWDr7KsG4/giphy.gif');
       break;
     case 'fetch':
+      if(commands.isRude(receivedMessage)){
+        roleManagement.rudeActs(receivedMessage, receivedMessage.author.id, heckinMad);
+        break;
+      }
       commands.fetchCommand(arguments, receivedMessage);
       break;
     case 'wow':
