@@ -1,5 +1,11 @@
 var dogHouse = {};
 
+// Keep object with userIds and the amount of warnings they've had
+// For small servers this works fine, but for larger servers this will DEFINITELY need to be changed
+
+// TODO: Replace Dog House role with process.env.rude_rule
+// TODO: Allow for the timeout to be configured with a custom amount of time
+
 module.exports = {
   rudeActs: function (message, userId, heckinMad) {
     if(dogHouse[userId] === undefined){
