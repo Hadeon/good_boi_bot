@@ -24,7 +24,7 @@ cron.schedule("0 0 0 * * *", () => {
     let todaysSchedule = owlScheduler.getTodaysMatches();
     client.guilds.get(`${process.env.guild_id}`).channels.get(`${process.env.owl_channel_id}`).send(`Matches today: \r ${todaysSchedule}`);
   } else {
-    console.log('No matches today');
+    client.guilds.get(`${process.env.guild_id}`).channels.get(`${process.env.owl_channel_id}`).send('TEST: No matches today.')
   }
 });
 

@@ -31,9 +31,9 @@ module.exports = {
         '\n **!potty**' +
         '\n **!purpose**' +
         '\n **!rollover**' +
+        '\n **!sad**' +
         '\n **!schedule [teamName]** shows upcoming schedule' +
         '\n **!schedule [weekNumber]** shows the schedule for that week' +
-        '\n **!sad**' +
         '\n **!treat**' +
         '\n **!walk**' +
         '\n **!yes**' +
