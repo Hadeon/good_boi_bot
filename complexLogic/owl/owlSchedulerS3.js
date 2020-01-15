@@ -108,6 +108,7 @@ module.exports = {
   },
   getWeekSchedule: function(arguments, receivedMessage){
     let weekSchedule = [];
+    let matchDate = moment('01012020', 'MMDDYYYY');;
     if(isNaN(arguments[1]) === false){
       let arrayNumber = arguments[1] - 1;
       let weekData = schedule[Object.keys(schedule)[arrayNumber]];
@@ -116,8 +117,12 @@ module.exports = {
         return;
       }
       for(let i = 0; i < weekData.length; i++){
-        let matchDate = moment(weekData[i].date, 'MMDDYYYY');
-        weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time} PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
+        let thisDate = moment(weekData[i].date, 'MMDDYYYY');
+        if(matchDate.isBefore(thisDate)){
+          matchDate = thisDate;
+          weekSchedule.push(`**${matchDate.format('MMMM Do')}**`)
+        }
+        weekSchedule.push(`*${weekData[i].time} PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
       }
       receivedMessage.channel.send(weekSchedule.join('\r'));
     } else {
@@ -125,8 +130,12 @@ module.exports = {
       if(weekNumber != undefined){
         let weekData = schedule[Object.keys(schedule)[weekNumber]];
         for(let i = 0; i < weekData.length; i++){
-          let matchDate = moment(weekData[i].date, 'MMDDYYYY');
-          weekSchedule.push(`*${matchDate.format('MMMM Do')} @${weekData[i].time} PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
+          let thisDate = moment(weekData[i].date, 'MMDDYYYY');
+          if(matchDate.isBefore(thisDate)){
+            matchDate = thisDate;
+            weekSchedule.push(`**${matchDate.format('MMMM Do')}**`)
+          }
+          weekSchedule.push(`*${weekData[i].time} PST* --- **${weekData[i].teamOne} vs ${weekData[i].teamTwo}** --- hosted by ${weekData[i].hostedBy}`);
         }
         receivedMessage.channel.send(weekSchedule.join('\r'));
       } else {
