@@ -53,7 +53,7 @@ client.on('message', (receivedMessage) => {
 // Give default role to any new users
 
 client.on('guildMemberAdd', (member) => {
-  member.addRole(member.guild.roles.find(role => role.name === process.env.default_role));
+  member.addRole(member.guild.roles.find(role => role.name === 'Huskers'));
 }).on('error', (err) => {
   console.log(err.message);
 })

@@ -75,7 +75,7 @@ module.exports = {
         for(var i = 0; i < schedule[week].length; i++){
           let matchData = schedule[week][i];
           if(matchData.date === todayFull){
-            let matchDetails = `@${matchData.time} PST --- ${matchData.teamOne} vs ${matchData.teamTwo} --- hosted by ${matchData.hostedBy}`;
+            let matchDetails = `${matchData.time} PST --- ${matchData.teamOne} vs ${matchData.teamTwo} --- hosted by ${matchData.hostedBy}`;
             todaySchedule.push(matchDetails);
           }
         }
